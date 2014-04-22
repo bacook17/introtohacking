@@ -1,4 +1,3 @@
-
 def say_hello(n):
     """Prints 'hello' n times"""
     
@@ -6,5 +5,5 @@ def say_hello(n):
         print "hello"
 
 if __name__ == "__main__":
-    n = int(raw_input("How many times would you like me to say hello? "))
+    n = int(raw_input("How many times would you like me to say hi? "))
     say_hello(n)
